@@ -1,0 +1,28 @@
+/* Modern Theme */
+.theme-modern {
+  --timeline-dot-size: 1.5rem;
+  --card-hover-transform: scale(1.02);
+}
+
+/* Classic Theme */
+.theme-classic {
+  --timeline-dot-size: 1.25rem;
+  --card-hover-transform: translateY(-4px);
+}
+
+/* Creative Theme */
+.theme-creative {
+  --timeline-dot-size: 2rem;
+  --card-hover-transform: rotate(1deg);
+}
+
+/* Minimal Theme */
+.theme-minimal {
+  --timeline-dot-size: 1rem;
+  --card-hover-transform: none;
+}
+
+/* Common Theme Transitions */
+.theme-transition {
+  transition: all 0.3s ease-in-out;
+}
