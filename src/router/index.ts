@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import LoginView from '../views/LoginView.vue'
+import HomeView from '../views/HomeView.vue'
 import ProfileView from '@/views/ResumeView.vue'
 import { useAuthStore } from '../stores/auth' // We'll create this next
 
@@ -11,6 +12,11 @@ const router = createRouter({
       name: 'login',
       component: LoginView,
       meta: { requiresGuest: true }
+    },
+    {
+      path: '/',
+      name: '',
+      component: HomeView,
     },
     {
       path: '/profile/user123',
